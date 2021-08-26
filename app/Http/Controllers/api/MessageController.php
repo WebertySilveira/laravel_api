@@ -23,9 +23,9 @@ class MessageController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(Request $request)
+    public function create()
     {
-        Message::create($request->all());
+        return view('home');
     }
 
     /**
